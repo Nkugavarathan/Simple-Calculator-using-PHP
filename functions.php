@@ -8,10 +8,8 @@
 </head>
 
 <body>
-    <form action="functions.php" method="get">
-        <input type="number" name="num01" placeholder="Enter number 1">
-        <input type="submit">
-    </form>
+
+    Name is <? echo   $_GET["name"] ?>;
 </body>
 
 </html>
