@@ -9,8 +9,17 @@
 
 <body>
     <form action="functions.php" method="get">
-        <input type="number" name="num01" placeholder="Enter number 1">
-        <input type="submit">
+        <input type="number" name="num1" placeholder="Enter number 1">
+        <select name="oper" id="">
+            <label for="">Choose Operation</label>
+            <option value="add">Add</option>
+            <option value="sub">Substract</option>
+            <option value="mul">Multiplication</option>
+            <option value="div">Division</option>
+        </select>
+        <input type="number" name="num2" placeholder="Enter number 2">
+
+        <button type="submit">Calculate</button>
     </form>
 </body>
 
