@@ -1,8 +1,8 @@
 
-    <?
+    <?php
     $num1 = $_GET["num1"];
     $oper = $_GET["oper"];
-    $num2 = $GET["num2"];
+    $num2 = $_GET["num2"];
 
     function myCalculator($num1, $oper, $num2)
     {
@@ -16,7 +16,7 @@
                 if ($num1 > $num2)
                     $sum = $num1 - $num2;
                 else {
-                    $sum = $num1 - $num2;
+                    $sum = $num2 - $num1;
                 }
                 break;
             case "mul":
