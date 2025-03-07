@@ -32,7 +32,9 @@
         return $sum;
     }
 
-    echo "Value : " . myCalculator($num1, $oper, $num2);
+    echo "Value : " . myCalculator($num1, $oper, $num2); // . "<br/>"
+    // echo "hi <br>";
+    // echo "kuma"
 
     ?>
 
